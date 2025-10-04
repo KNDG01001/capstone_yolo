@@ -1,4 +1,6 @@
-train: dataset/images/train
+train:
+  - dataset/images/train
+  - dataset/images/train_focus
 val: dataset/images/val
 test: test/images
 

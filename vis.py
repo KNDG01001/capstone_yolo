@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # 모델 로드 (학습한 best.pt 경로 넣어줘)
-model = YOLO(r"objectDetect_elevator\camera_python\models\best.pt")
+model = YOLO(r"runs\detect\train6\weights\best.pt")
 
 # 이미지 불러오기
 img_path = "frame00.png"   # 테스트할 이미지 경로
