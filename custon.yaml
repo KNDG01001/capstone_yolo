@@ -1,0 +1,22 @@
+# custom.yaml (train config)
+
+# 데이터셋
+data: data.yaml        # train/val 경로 들어있는 파일
+model: yolov8n.pt      # 시작 모델
+epochs: 100
+imgsz: 640
+batch: 16
+
+# 증강 옵션
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+degrees: 10.0
+translate: 0.1
+scale: 0.5
+shear: 2.0
+flipud: 0.0
+fliplr: 0.5
+mosaic: 1.0
+mixup: 0.2
+copy_paste: 0.0
