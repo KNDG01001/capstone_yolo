@@ -1,0 +1,15 @@
+train: dataset/images/train
+val: dataset/images/val
+test: test/images
+
+nc: 8
+
+names:
+  0: 1
+  1: 2
+  2: 3
+  3: 4
+  4: 5
+  5: 6
+  6: O
+  7: C

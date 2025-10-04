@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['O', 'C', '1', '2', '3', '4', '5', '6']
+
+roboflow:
+  workspace: sun-moon-university
+  project: elevator_button_recognition
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sun-moon-university/elevator_button_recognition/dataset/1
